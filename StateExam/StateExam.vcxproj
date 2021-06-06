@@ -156,12 +156,14 @@
     <ClCompile Include="src\RectangularMatrix.cpp" />
     <ClCompile Include="src\Main.cpp" />
     <ClCompile Include="src\Volume.cpp" />
+    <ClCompile Include="src\Words.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\ChangePosition.h" />
     <ClInclude Include="src\MaxNumber.h" />
     <ClInclude Include="src\RectangularMatrix.h" />
     <ClInclude Include="src\Volume.h" />
+    <ClInclude Include="src\Words.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
