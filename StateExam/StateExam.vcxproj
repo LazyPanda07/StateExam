@@ -152,11 +152,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\ChangePosition.cpp" />
+    <ClCompile Include="src\RectangularMatrix.cpp" />
     <ClCompile Include="src\Main.cpp" />
     <ClCompile Include="src\Volume.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\ChangePosition.h" />
+    <ClInclude Include="src\RectangularMatrix.h" />
     <ClInclude Include="src\Volume.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
