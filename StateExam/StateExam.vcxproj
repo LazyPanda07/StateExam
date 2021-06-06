@@ -152,6 +152,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\ChangePosition.cpp" />
+    <ClCompile Include="src\Deletion.cpp" />
     <ClCompile Include="src\Intersection.cpp" />
     <ClCompile Include="src\MaxNumber.cpp" />
     <ClCompile Include="src\RectangularMatrix.cpp" />
@@ -163,6 +164,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\ChangePosition.h" />
+    <ClInclude Include="src\Deletion.h" />
     <ClInclude Include="src\Intersection.h" />
     <ClInclude Include="src\MaxNumber.h" />
     <ClInclude Include="src\RectangularMatrix.h" />
