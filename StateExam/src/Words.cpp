@@ -26,7 +26,7 @@ tuple<vector<string>, vector<string>> getWords(const vector<string>& words)
 
 			wordsSplitter >> tem;
 
-			while (isspace(static_cast<unsigned char>(tem.back())))
+			while (tem.size() && isspace(static_cast<unsigned char>(tem.back())))
 			{
 				tem.pop_back();
 			}

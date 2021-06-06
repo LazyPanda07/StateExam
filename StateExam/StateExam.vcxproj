@@ -159,6 +159,7 @@
     <ClCompile Include="src\Main.cpp" />
     <ClCompile Include="src\Sequence.cpp" />
     <ClCompile Include="src\SeriesSum.cpp" />
+    <ClCompile Include="src\Sets.cpp" />
     <ClCompile Include="src\Volume.cpp" />
     <ClCompile Include="src\Words.cpp" />
   </ItemGroup>
@@ -170,6 +171,7 @@
     <ClInclude Include="src\RectangularMatrix.h" />
     <ClInclude Include="src\Sequence.h" />
     <ClInclude Include="src\SeriesSum.h" />
+    <ClInclude Include="src\Sets.h" />
     <ClInclude Include="src\Volume.h" />
     <ClInclude Include="src\Words.h" />
   </ItemGroup>
