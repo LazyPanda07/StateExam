@@ -21,9 +21,15 @@
     <ClCompile Include="src\Volume.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="src\ChangePosition.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Volume.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ChangePosition.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
