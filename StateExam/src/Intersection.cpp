@@ -14,7 +14,7 @@ vector<string> intersection(const string& first, const string& second)
 	{
 		stringstream wordSplitter;
 
-		wordSplitter << str;
+		wordSplitter << str;	// stringstream является классом потоков для строк, в него вводится целая строка с пробелами, а он делит их на отдельные слова
 
 		while (!wordSplitter.eof())
 		{
@@ -22,7 +22,7 @@ vector<string> intersection(const string& first, const string& second)
 
 			wordSplitter >> word;
 
-			while (isspace(static_cast<unsigned char>(word.back())))
+			while (isspace(static_cast<unsigned char>(word.back())))	// удаление пробелов табов и т.д.
 			{
 				word.pop_back();
 			}
@@ -41,7 +41,7 @@ vector<string> intersection(const string& first, const string& second)
 
 	splitWords(second, secondSet);
 
-	set_intersection(firstSet.begin(), firstSet.end(), secondSet.begin(), secondSet.end(), back_inserter(result));
+	set_intersection(firstSet.begin(), firstSet.end(), secondSet.begin(), secondSet.end(), back_inserter(result));	// стандартная функция для нахождения пересечений 2 множеств, back_inserter предоставляет позицию для вставки пересеченных элементов
 
 	return result;
 }

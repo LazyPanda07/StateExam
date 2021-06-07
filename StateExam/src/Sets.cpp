@@ -37,11 +37,11 @@ tuple<vector<string>, vector<string>> getSets(const vector<string>& words)
 
 			if (vowels.find(tolower(static_cast<unsigned char>(tem[0]))) != string::npos)
 			{
-				vowelsWords.insert(move(tem));
+				vowelsWords.insert(move(tem)); // перемещение строки вместо копирования, т.е. переменная tem содержит в себе указатель на последовательность символов и вместо копирования этих символов просто происходит передача указателя в другую строку
 			}
 			else
 			{
-				consonantsWords.insert(move(tem));
+				consonantsWords.insert(move(tem)); // перемещение строки вместо копирования, т.е. переменная tem содержит в себе указатель на последовательность символов и вместо копирования этих символов просто происходит передача указателя в другую строку
 			}
 		}
 	}

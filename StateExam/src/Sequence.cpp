@@ -21,7 +21,7 @@ vector<int> getNewArray(const vector<int>& array)
 		}
 	}
 
-	copy(negative.begin(), negative.end(), back_inserter(result));
+	copy(negative.begin(), negative.end(), back_inserter(result));	// в result уже содержатся неотрицательные числа и дальше происходит копирование всех отрицательных чисел, back_inserter дает доступ к месту для вставления элемента в конец
 
 	return result;
 }

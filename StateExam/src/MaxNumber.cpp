@@ -9,7 +9,7 @@ long long getMaxNumber(int first, int second)
 {
 	string tem = to_string(first) + to_string(second);
 
-	sort(tem.begin(), tem.end(), greater<char>());
+	sort(tem.begin(), tem.end(), greater<char>());	// greater<char> используетс€ дл€ указани€ типа сортировки, в данном случае сперва будут бќльшие элементы
 
 	return stoll(tem);
 }
